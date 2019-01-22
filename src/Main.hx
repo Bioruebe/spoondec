@@ -14,7 +14,7 @@ class Main {
 	static inline var LZMA_HEADER = "5d00008000";
 	
 	static function main() {
-		Bio.Header("Spoon Installer Extractor (spoondec)", "1.0", "An extractor for Spoon Installers", "<input_file> [<output_directory>]");
+		Bio.Header("Spoon Installer Extractor (spoondec)", "1.0.0", "2017", "An extractor for Spoon Installers", "<input_file> [<output_directory>]");
 		Bio.Seperator();
 		
 		var args = Sys.args();
