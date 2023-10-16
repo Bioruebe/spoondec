@@ -32,11 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bio.cs, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bioruebe.BioLib.2.4.0\lib\net45\Bio.cs.dll</HintPath>
+    <Reference Include="Bio.cs, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bioruebe.BioLib.2.5.0\lib\net45\Bio.cs.dll</HintPath>
     </Reference>
-    <Reference Include="SevenZip, Version=19.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LZMA-SDK.19.0.0\lib\net20\SevenZip.dll</HintPath>
+    <Reference Include="SevenZip, Version=22.1.1.0, Culture=neutral, PublicKeyToken=255bd05c2a3d60c7, processorArchitecture=MSIL">
+      <HintPath>..\packages\LZMA-SDK.22.1.1\lib\net20\SevenZip.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

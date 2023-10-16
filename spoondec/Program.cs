@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using BioLib;
 using BioLib.Streams;
-using SevenZip.Compression.LZMA;
 
 namespace spoondec {
 	class Program {
-		private const string VERSION = "2.0.0";
+		private const string VERSION = "2.0.1";
 		private const string PROMPT_ID = "spondec_overwrite";
 		private const string INSTALLER_SCRIPT_NAME = "#InstallerScript.ini";
 		private static readonly byte[] LZMA_HEADER = { 0x5d, 0x00, 0x00, 0x80, 0x00 };
