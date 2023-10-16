@@ -1,0 +1,9 @@
+2.0.1
+  Updated BioLib to 2.5.0
+  Updated LZMA SDK to 22.1.1
+
+2.0.0
+  Complete rewrite in C#
+
+1.0.0
+  Initial release
